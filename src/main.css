@@ -1,0 +1,62 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.summary {
+  margin-top: 100px;
+  width: 95%;
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* GLOBAL TEMPERATURE */
+.summary .b-type {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.summary .b-type span {
+  color: #000000;
+}
+
+.summary .b-price {
+  margin-top: 3px;
+  text-align: center;
+}
+
+.summary .b-price #price {
+  font-size: 10px;
+  font-weight: 500;
+}
+/* departure from ~ */
+.summary .b-price #unit {
+  font-size: 15px;
+  color: #888;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.summary .b-date {
+  font-size: 16px;
+  color: #888;
+  margin-top: 3px;
+}
+
+#svg-container {
+  /* border: 1px solid red; */
+  width: 95%;
+  max-width: 830px;
+  height: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
